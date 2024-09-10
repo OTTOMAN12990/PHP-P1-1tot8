@@ -13,4 +13,8 @@ $products[1][1] = "F40";
 $products[1][2] = "3";
 $products[3][2] = "120";
 
-var_dump($products);
+echo "de " . $products[1][0];
+echo "<br>de " . $products[1][3];
+echo '<pre>';
+print_r($products);
+echo '</pre>';
