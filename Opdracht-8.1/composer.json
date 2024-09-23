@@ -1,0 +1,11 @@
+{
+    "name": "tarkan/smarty",
+    "autoload": {
+        "psr-4": {
+            "tarkan\\smarty\\": "src/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
