@@ -8,9 +8,10 @@ function sanitize_input($data) {
  
     return $data;
  
-    function format_input($data) {
+    
+}
 
-        return strtoupper($data);
-    }
-   
+function format_input($data) {
+
+    return strtoupper($data);
 }

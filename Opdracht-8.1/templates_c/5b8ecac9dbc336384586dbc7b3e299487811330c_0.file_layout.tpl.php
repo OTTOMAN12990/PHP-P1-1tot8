@@ -1,6 +1,32 @@
-<!doctype html>
+<?php
+/* Smarty version 5.4.1, created on 2024-09-24 12:33:37
+  from 'file:templates/layout.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.1',
+  'unifunc' => 'content_66f2b1a10ab808_72358798',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5b8ecac9dbc336384586dbc7b3e299487811330c' => 
+    array (
+      0 => 'templates/layout.tpl',
+      1 => 1727181212,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_66f2b1a10ab808_72358798 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\wamp64\\www\\PHP-P1\\Opdracht-8.1\\templates';
+?><!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
-<head><script src="./templates/js/color-modes.js"></script>
+<head><?php echo '<script'; ?>
+ src="./templates/js/color-modes.js"><?php echo '</script'; ?>
+>
  
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,10 +34,14 @@
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<?php echo '<script'; ?>
+ src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"><?php echo '</script'; ?>
+>
  
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -191,8 +221,10 @@
 <!-- Begin page content -->
 <main class="flex-shrink-0">
 <div class="container">
-<h1 class="mt-5">{$page}</h1>
-<p class="lead">{$text}</p>
+<h1 class="mt-5"><?php echo $_smarty_tpl->getValue('page');?>
+</h1>
+<p class="lead"><?php echo $_smarty_tpl->getValue('text');?>
+</p>
 <p>Back to <a href="/docs/5.3/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
 </div>
 </main>
@@ -202,7 +234,11 @@
 <span class="text-body-secondary">Place sticky footer content here.</span>
 </div>
 </footer>
-<script src="./templates/js/bootstrap.bundle.min.js" ></script></script>
+<?php echo '<script'; ?>
+ src="./templates/js/bootstrap.bundle.min.js" ><?php echo '</script'; ?>
+><?php echo '</script'; ?>
+>
  
     </body>
-</html>
+</html><?php }
+}
